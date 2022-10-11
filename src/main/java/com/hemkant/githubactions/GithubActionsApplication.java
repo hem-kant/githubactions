@@ -11,7 +11,7 @@ public class GithubActionsApplication {
 
 	@GetMapping("/hello")
 	public  String HelloWorld(){
-		return "Hello World";
+		return "Hello from GCP K8s cluster";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(GithubActionsApplication.class, args);
